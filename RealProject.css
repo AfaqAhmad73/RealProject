@@ -1,0 +1,157 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+header {
+  width: 100%;
+  height: 100%;
+  background-image: url(./imag2.jpg);
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header-content {
+  display: flex;
+  flex-direction: column;
+}
+h3 {
+  font-size: 4vmin;
+  padding: 0px 0px 0px 85px;
+}
+h1 {
+  font-size: 7vmin;
+}
+.item {
+  text-align: center;
+}
+.a1 {
+  text-decoration: none;
+  text-align: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  padding: 8px 15px;
+  border-radius: 25px;
+  font-weight: 800;
+  background-color: blueviolet;
+  color: aliceblue;
+}
+ul {
+  list-style: none;
+  display: flex;
+  padding: px;
+}
+li {
+  padding: 20px;
+}
+li a {
+  text-decoration: none;
+  color: rgb(10, 14, 17);
+  font-size: 5vmin;
+  font-weight: bold;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+nav {
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+h2 {
+  padding-left: 10px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: xx-large;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  text-transform: uppercase;
+}
+li a:hover {
+  color: rgb(179, 162, 141);
+}
+.a1 :hover {
+  background-color: aliceblue;
+}
+#section-1 {
+  width: 100vw;
+  height: auto;
+  text-align: center;
+  margin: 20px;
+  height: 100%;
+}
+section h1 {
+  text-align: center;
+}
+.inside {
+  display: flex;
+  flex-direction: row;
+  height: auto;
+}
+.row1 {
+  margin: 10px 0px;
+}
+.row2 {
+  margin: 10px 0px;
+}
+.section-main {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  padding: 0px;
+  margin: 0px;
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
+
+  background-image: url(./verdon-3847300_1280.jpg);
+  background-size: cover;
+}
+.sectio-2 {
+  width: 50%;
+}
+.sectio-2 a {
+  text-decoration: none;
+  color: rgb(215, 218, 224);
+  font-size: 5vmin;
+  font-weight: bold;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.sectio-2 p {
+  font-size: x-large;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.sec-3 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: auto;
+}
+.sec-3 p {
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 20px;
+  font-size: x-large;
+}
+.img-galery {
+  display: flex;
+  flex-direction: column;
+  margin: 0px 20px;
+  padding: 20px;
+  width: 50%;
+}
+.section-3 h1 {
+  text-transform: uppercase;
+}
+footer {
+  height: 20%;
+  width: 100%;
+  background-color: #484872;
+  text-align: center;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
